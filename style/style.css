@@ -20,6 +20,8 @@ body {
 }
 
 .flex_wrapper1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -41,6 +43,8 @@ body {
 .nav {
     width: 100%;
     margin-top: 61px;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
     transition: 0.7s;
 }
 
@@ -63,7 +67,8 @@ body {
 }
 
 .nav a:hover {
-    text-decoration: #fcac45 underline;
+    -webkit-text-decoration: #fcac45 underline;
+            text-decoration: #fcac45 underline;
 }
 
 .nav_adaptive {
@@ -104,6 +109,8 @@ body {
 .screen2 {
     width: 90%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 120px;
     padding-bottom: 120px;
@@ -187,9 +194,14 @@ body {
 
 .flex_wrapper2 {
     margin-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .item {
@@ -265,9 +277,14 @@ body {
 
 .flex_wrapper3 {
     margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .item2 {
@@ -427,8 +444,3 @@ textarea {
 .screen7 img {
     margin: 3px;
 }
-
-.man{
-    
-}
-
