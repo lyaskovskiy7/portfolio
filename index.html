@@ -1,171 +1,302 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/fonts.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/media.css">
-    <script src="main.js"></script>
+    <title>some</title>
+    <link rel="stylesheet" href="./dest/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:300,400,600,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
 </head>
+
 <body>
+    <div class="wrapper-full black">
+        <div class="wrapper">
+            <div class="header" id="menu">
+                <a href="#" class="header__logo">Spirit8</a>
+                <ul class="menu header__menu">
+                    <li class="menu__item_active">
+                        <a href="#" class="menu__link">MENU</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#menu" class="menu__link">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#about" class="menu__link">ABOUT</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#services" class="menu__link">SERVICES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#portflio" class="menu__link">PORTFOLIO</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#testimonials" class="menu__link">TESTIMONIALS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#footer" class="menu__link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="title title-header">WELCOME ON <span class="orange bold">SPIRIT8</span>
+                <p class="title-header__subtitle">We are a digital agency with <span class="bold">years of experience</span>
+                    and with <span class="bold">extraordinary people</span></p>
+            </div>
 
-
-    <!--screen1-->
-    <div class="container_screen1">
-        <div class="screen1">
-            <div class="flex_wrapper1">
-                <div class="logo"><a href="#"><h2>mycompany</h2></a></div>
-                <div class="nav">
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">services</a></li>
-                        <li><a href="#">portfolio</a></li>
-                        <li><a href="#">testimonials</a></li>
-                        <li><a href="#">contact</a></li>
+        </div>
+    </div>
+    <!-- block about -->
+    <div class="wrapper-full white" id="about">
+        <div class="wrapper">
+            <div class="about">
+                <div class="about-img"><img src="src/img/mac.jpg" alt="mac"></div>
+                <div class="about-right">
+                    <h2 class="about-right__subtitle">SOME WORDS <span class="bold">ABOUT US</span></h2>
+                    <p class="about-right__text">We love building and rebuilding brands through our specific skills.
+                        Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+                    <ul class="about-list">
+                        <li class="about-list__item"><span class="bold">Mission</span> - We deliver uniqueness and
+                            quality</li>
+                        <li class="about-list__item"><span class="bold">Skills</span> - Delivering fast and excellent
+                            results</li>
+                        <li class="about-list__item"><span class="bold">Clients</span> - Satisfied clients thanks to
+                            our experience</li>
                     </ul>
                 </div>
-                <a href="#" class="nav_adaptive">&#9776</a>
-            </div>
-
-            <div class="heading">
-                <h1>WELCOME <span>ON MYCOMPANY</span></h1>
-                <p>We are a digital agency with years of experience and with extraordinary people</p>
             </div>
         </div>
     </div>
-    <!--screen2-->
-    <div class="container_screen2">
-        <div class="screen2">
-
-            <div class="img_left"><img src="img/iMac.png" alt="iMac"></div>
-            <div class="text_right">
-                <h3>Some words <span>about us</span></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at
-                asperiores minus ad eaque maxime possimus .</p>
-                <div class="checkbox">
-                    <ul>
-                        <li><span>Mission</span> - We deliver uniqueness and quality</li>
-                        <li><span>Skills</span> - Delivering fast and excellent results</li>
-                        <li><span>Clients</span> - Satisfied clients thanks to our experience</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!--screen3-->
-
-    <div class="container_screen3">
-        <div class="screen3">
-            <h3>our team</h3>
-            <div class="main_wrapper">
-                <div class="flex_wrapper2">
-                    <div class="item">
-                        <div class="photo"><div class="circle"><img src="img/SEO.svg"></div></div>
-                        <p class="item_name"><b>Max Belov</b><br>SEO</p>
-                        <p class="item_text">Do not seek to change what has come before. Seek to create that which has not.</p>
+    <!-- block team -->
+    <div class="wrapper-full black">
+        <div class="wrapper">
+            <div class="team">
+                <div class="title title-team">MEET <span class="bold">OUR TEAM</span></div>
+                <div class="grid">
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/Designer.svg" alt="Designer"></div>
+                        <div class="people__name"><span class="bold">Jason Statham</span><br>Knife designer</div>
+                        <div class="people__about">Do not seek to change what has come before. Seek to create that
+                            which has not.
+                        </div>
                     </div>
-                    <div class="item">
-                        <div class="photo"><div class="circle"><img src="img/Copywriter.svg"></div></div>
-                        <p class="item_name"><b>Pavel Konov</b><br>Copywriter</p>
-                        <p class="item_text">Do not seek to change what has come before. Seek to create that which has not.</p>
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/Manager.svg" alt="Manager"></div>
+                        <div class="people__name"><span class="bold">Van Damme</span><br>No English</div>
+                        <div class="people__about">Do not seek to change what has come before. Seek to create that
+                            which has not.
+                        </div>
                     </div>
-                    <div class="item">
-                        <div class="photo"><div class="circle"><img src="img/Manager.svg"></div></div>
-                        <p class="item_name"><b>Bogdan Makarov</b><br>Manager</p>
-                        <p class="item_text">Do not seek to change what has come before. Seek to create that which has not.</p>
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/Copywriter.svg" alt="Copywriter"></div>
+                        <div class="people__name"><span class="bold">Sylvester Stallone</span><br>Cigar Lover</div>
+                        <div class="people__about">Do not seek to change what has come before. Seek to create that
+                            which has not.
+                        </div>
                     </div>
-                    <div class="item">
-                        <div class="photo"><div class="circle"><img src="img/Designer.svg"></div></div>
-                        <p class="item_name"><b>Vlad Ivanov</b><br>Designer</p>
-                        <p class="item_text">Do not seek to change what has come before. Seek to create that which has not.</p>
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/SEO.svg" alt="SEO"></div>
+                        <div class="people__name"><span class="bold">Jet Li</span><br>I need more money</div>
+                        <div class="people__about people__about_padding">Do not seek to change what has come before.
+                            Seek to create that
+                            which has not.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!--screen4-->
-
-    <div class="container_screen4">
-        <div class="screen4">
-            <h3>our services</h3>
-            <div class="screen4_text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</p>
+    <!-- block services -->
+    <div class="wrapper-full white">
+        <div class="wrapper">
+            <div class="services">
+                <div class="title title-services">TAKE A LOOK AT <span class="bold" id="services">OUR SERVICES</span>
+                    <div class="title-services__subtitle">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                        Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+                </div>
+                <div class="grid">
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/tv.svg" alt="tv"></div>
+                        <div class="works__name">WEB DESIGN</div>
+                        <div class="works__about">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
+                    </div>
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/camera.svg" alt="camera"></div>
+                        <div class="works__name">PHOTOGRAPHY</div>
+                        <div class="works__about">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
+                    </div>
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/phone.svg" alt="phone"></div>
+                        <div class="works__name">MOBILE APPS</div>
+                        <div class="works__about">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
+                    </div>
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/speaker.svg" alt="speaker"></div>
+                        <div class="works__name">MARKETING</div>
+                        <div class="works__about works__about_padding">The first line of Lorem Ipsum, "Lorem ipsum
+                            dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
+                    </div>
+                </div>
             </div>
-            <div class="flex_wrapper3">
-                <div class="item2">
-                    <div class="icon"><div class="circle2"><img src="img/tv.svg"></div></div>
-                    <p class="item2_work"><b>Web design</b></p>
-                    <p class="item2_text">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-                <div class="item2">
-                    <div class="icon"><div class="circle2"><img src="img/phone.svg"></div></div>
-                    <p class="item2_work"><b>Mobile apps</b></p>
-                    <p class="item2_text">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-                <div class="item2">
-                    <div class="icon"><div class="circle2"><img src="img/camera.svg"></div></div>
-                    <p class="item2_work"><b>PHOTOGRAPHY</b></p>
-                    <p class="item2_text">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-                <div class="item2">
-                    <div class="icon"><div class="circle2"><img src="img/speaker.svg"></div></div>
-                    <p class="item2_work"><b>marketing</b></p>
-                    <p class="item2_text">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-            </div>
+
         </div>
     </div>
-
-    <!--screen5-->
-    <div class="container_screen5">
-        <div class="screen5">
-            <h3>SOME OF OUR CLIENTS</h3>
-            <div class="wrapper3">
-                <div class="item3"><img src="img/company1.png"></div>
-                <div class="item3"><img src="img/company2.png"></div>
-                <div class="item3"><img src="img/company3.png"></div>
-                <div class="item3"><img src="img/company4.png"></div>
-                <div class="item3"><img src="img/company5.png"></div>
-            </div>  
-        </div>
-    </div>
-    <!--screen6-->  
-    <div class="container_screen6">
-        <div class="screen6">
-            <h3>contact us</h3>
-            <div class="screen5_text"><p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            </p></div>
-            <div class="wrapper4">
-                <form action="#" name="newform" method="post">
-                    <p>Name<span>*</span></p>
-                    <input type="text">
-                    <p>Email address<span>*</span></p>
-                    <input type="text">
-                </form>
-                <p>Message</p>
-                <textarea name="text"></textarea>
-                <div class="button_block">
-                    <input type="submit" value="SEND">
+    <!-- clients -->
+    <div class="wrapper-full black">
+        <div class="wrapper">
+            <div class="clients">
+                <div class="title title-clients">SOME OF <span class="bold">OUR CLIENTS</span></div>
+                <div class="company">
+                    <div class="company__item"><img src="src/img/01.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/02.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/03.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/04.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/05.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/06.png" alt="company"></div>
                 </div>
             </div>
         </div>
     </div>
-    <!--screen6-->
-    <div class="container_screen7">
-        <div class="screen7">
-            <img src="img/facebook.svg">
-            <img src="img/twitter.svg">
-            <img src="img/google.svg">
-            <img src="img/dribbble.svg">
-            <img src="img/twitter.svg">
+    <!-- portflio -->
+    <div class="wrapper white" id="portflio">
+        <div class="wrapper">
+            <div class="portfolio">
+                <div class="title title-portfolio">TAKE A LOOK AT <span class="bold">OUR WORK</span>
+                    <p class="title-portfolio__subtitle">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                        Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+                <div class="filter">
+                    <p class="filter__name bold">Filter by type</p>
+                    <div class="sorting">
+                        <a href="#" class="sorting__link">All</a><span class="sorting__link_stick">|</span>
+                        <a href="#" class="sorting__link">Web design</a><span class="sorting__link_stick">|</span>
+                        <a href="#" class="sorting__link">Mobile design</a><span class="sorting__link_stick">|</span>
+                        <a href="#" class="sorting__link">Photograpy</a>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- reviews -->
+    <div class="wrapper-full black" id="testimonials">
+        <div class="wrapper">
+            <div class="reviews">
+                <div class="title title-reviews"><span class="bold">OUR CLIENTS’</span> TESTIMONIALS
+                    <div class="title-reviews__subtitle">This book is a treatise on the theory of ethics, very popular
+                        during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                        from a line in section 1.10.32.
+                        <div class="title-reviews__name"><span class="bold">Dean Martin</span>, CEO Acme Inc.</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+
+    <div class="wrapper-full white">
+        <div class="wrapper">
+            <div class="formWrap">
+                <div class="title title-form">FEEL FREE TO <span class="bold" id="footer">CONTACT US</span>
+                    <div class="title-form__subtitle">
+                        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                        Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory
+                        of ethics, very popular during the Renaissance.
+                    </div>
+                </div>
+
+                <form action="" class="form">
+                    <div class="input-block">
+                        <div class="input-wrap">
+                            <p class="input-text">Name <span class="red">*</span></p>
+                            <input type="text">
+                        </div>
+                        <div class="input-wrap">
+                            <p class="input-text">Email address <span class="red">*</span></p>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="textarea">
+                        <div class="textarea__text">Message <span class="red">*</span></div>
+                        <textarea></textarea>
+                    </div>
+                    <div class="button-wrap">
+                        <input type="submit" value="SEND">
+                    </div>
+
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <div class="wrapper-full black">
+        <div class="wrapper">
+            <div class="footer">
+                <p class="footer__text">ALL RIGHTS RESERVED. COPYRIGHT © 2014 <span class="bold">SPIRIT8</span></p>
+                <div class="icon-block">
+                    <a href="#"><img src="src/img/facebook.svg" alt="fb"></a>
+                    <a href="#"><img src="src/img/google.svg" alt="gogle"></a>
+                    <a href="#"><img src="src/img/dribbble.svg" alt="dribbble"></a>
+                    <a href="#"><img src="src/img/linkedin.svg" alt="link"></a>
+                    <a href="#"><img src="src/img/twitter.svg" alt="twitter"></a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
-</html>
 
+</html>

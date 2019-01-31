@@ -1,0 +1,40 @@
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
+var gcmq = require('gulp-group-css-media-queries');
+const cleanCSS = require('gulp-clean-css');
+var browserSync = require('browser-sync').create();
+
+
+
+function style() {
+    return gulp.src('./src/style/main.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer({
+            browsers: ['> 0.1%'],
+            cascade: false
+        }))
+        .pipe(gcmq())
+        .pipe(cleanCSS({
+            compatibility: 'ie8'
+        }))
+        .pipe(gulp.dest('./dest'))
+        .pipe(browserSync.stream());
+}
+
+function html() {
+    return gulp.src('./index.html')
+        .pipe(browserSync.stream());
+}
+
+function watch() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+    gulp.watch('./src/style/*.scss', style)
+    gulp.watch('./*.html', html)
+}
+
+gulp.task('watch', watch)
