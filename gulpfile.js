@@ -1,9 +1,9 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
-var gcmq = require('gulp-group-css-media-queries');
+const gcmq = require('gulp-group-css-media-queries');
 const cleanCSS = require('gulp-clean-css');
-var browserSync = require('browser-sync').create();
+const browserSync = require('browser-sync').create();
 
 
 
@@ -22,6 +22,11 @@ function style() {
         .pipe(browserSync.stream());
 }
 
+function script() {
+    return gulp.src('./src/js/main.js')
+        .pipe(browserSync.stream())
+}
+
 function html() {
     return gulp.src('./index.html')
         .pipe(browserSync.stream());
@@ -34,6 +39,7 @@ function watch() {
         }
     });
     gulp.watch('./src/style/*.scss', style)
+    gulp.watch('./src/js/*.js', script)
     gulp.watch('./*.html', html)
 }
 
