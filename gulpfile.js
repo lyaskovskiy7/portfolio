@@ -22,11 +22,6 @@ function style() {
         .pipe(browserSync.stream());
 }
 
-function script() {
-    return gulp.src('./src/js/main.js')
-        .pipe(browserSync.stream())
-}
-
 function html() {
     return gulp.src('./index.html')
         .pipe(browserSync.stream());
@@ -39,7 +34,6 @@ function watch() {
         }
     });
     gulp.watch('./src/style/*.scss', style)
-    gulp.watch('./src/js/*.js', script)
     gulp.watch('./*.html', html)
 }
 

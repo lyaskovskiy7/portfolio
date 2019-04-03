@@ -3,515 +3,300 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Lato|Open+Sans:300,300i,400,400i,600,600i,700"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="dest/main.css">
-
+    <title>some</title>
+    <link rel="stylesheet" href="./dest/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:300,400,600,700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="src/js/main.js"></script>
 </head>
 
 <body>
-
-    <!-- header -->
-    <div class="background-header">
-        <!-- <div class="debuger">
-                    <div>
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div> -->
+    <div class="wrapper-full black">
         <div class="wrapper">
-            <div class="header">
-                <div class="header-nav">
-                    <div class="logo">
-                        <a href="#">MINI</a>
-                    </div>
-                    <div class="menu-adaptive">MENU</div>
-                    <ul class="nav">
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">ABOUT</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">TEAM</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">SERVICES</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">WORKS</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">BLOG</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">CONTACT</a>
-                        </li>
+            <div class="header" id="menu">
+                <a href="#" class="header__logo">Spirit8</a>
+                <ul class="menu header__menu">
+                    <li class="menu__item_active">
+                        <a href="#" class="menu__link">MENU</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#menu" class="menu__link">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#about" class="menu__link">ABOUT</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#services" class="menu__link">SERVICES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#portflio" class="menu__link">PORTFOLIO</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#testimonials" class="menu__link">TESTIMONIALS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#footer" class="menu__link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="title title-header">WELCOME ON <span class="orange bold">SPIRIT8</span>
+                <p class="title-header__subtitle">We are a digital agency with <span class="bold">years of experience</span>
+                    and with <span class="bold">extraordinary people</span></p>
+            </div>
+
+        </div>
+    </div>
+    <!-- block about -->
+    <div class="wrapper-full white" id="about">
+        <div class="wrapper">
+            <div class="about">
+                <div class="about-img"><img src="src/img/mac.jpg" alt="mac"></div>
+                <div class="about-right">
+                    <h2 class="about-right__subtitle">SOME WORDS <span class="bold">ABOUT US</span></h2>
+                    <p class="about-right__text">We love building and rebuilding brands through our specific skills.
+                        Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+                    <ul class="about-list">
+                        <li class="about-list__item"><span class="bold">Mission</span> - We deliver uniqueness and
+                            quality</li>
+                        <li class="about-list__item"><span class="bold">Skills</span> - Delivering fast and excellent
+                            results</li>
+                        <li class="about-list__item"><span class="bold">Clients</span> - Satisfied clients thanks to
+                            our experience</li>
                     </ul>
                 </div>
-                <div class="header-title">
-                    <h1 class="header-title__text">
-                        <span class="light">Best Creative Studio</span><br>
-                        Design / Branding / WordPres<br>
-                        <span class="light">We Make Great Ideas Happen</span>
-                    </h1>
-                    <input type="button" value="Learn More" class="button">
-                </div>
             </div>
         </div>
     </div>
-    <!-- about -->
-    <div class="wrapper">
-        <div class="about">
-            <div class="main-heading">
-                <h6 class="main-heading__title">ABOUT</h6>
-                <p class="main-heading__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-                    iusto
-                    voluptas voluptatem consequatur enim ullam delectus placeat molestiae veniam quia sed amet optio</p>
-            </div>
-            <div class="about-content">
-                <div class="about-content__wrap-icon">
-                    <div class="about-content__icon"></div>
-                </div>
-                <div class="about-content__wrap-text">
-                    <h6 class="about-content__title">Our Story</h6>
-                    <div class="about-content__text red">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                        consequat ipsum, nec sagittis sem nibh id elit.
+    <!-- block team -->
+    <div class="wrapper-full black">
+        <div class="wrapper">
+            <div class="team">
+                <div class="title title-team">MEET <span class="bold">OUR TEAM</span></div>
+                <div class="grid">
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/Designer.svg" alt="Designer"></div>
+                        <div class="people__name"><span class="bold">Jason Statham</span><br>Knife designer</div>
+                        <div class="people__about">Do not seek to change what has come before. Seek to create that
+                            which has not.
+                        </div>
                     </div>
-                    <div class="about-content__text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non
-                        mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent
-                        per conubia nostra, per inceptos himenaeos.
-                        Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non
-                        neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed
-                        fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in
-                        orci enim.</div>
-                </div>
-                <div class="about-content__wrap-img">
-                    <div class="about-content__img"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- skills -->
-    <hr>
-    <div class="wrapper">
-        <div class="skills">
-            <div class="skills-img"><img src="src/img/iphone.png" alt=""></div>
-            <div class="skills-content">
-                <div class="skills-content__wrap-main">
-                    <div class="skills-content__icon"></div>
-                    <div class="skills-content__wrap-text">
-                        <h6 class="skills-content__title">Our Skills</h6>
-                        <div class="skills-content__text">Duis sed odio sit amet nibh vulputate cursus a sit amet
-                            mauris.
-                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non
-                            mauris vitae erat consequat auctor eu in elit.
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/Manager.svg" alt="Manager"></div>
+                        <div class="people__name"><span class="bold">Van Damme</span><br>No English</div>
+                        <div class="people__about">Do not seek to change what has come before. Seek to create that
+                            which has not.
+                        </div>
+                    </div>
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/Copywriter.svg" alt="Copywriter"></div>
+                        <div class="people__name"><span class="bold">Sylvester Stallone</span><br>Cigar Lover</div>
+                        <div class="people__about">Do not seek to change what has come before. Seek to create that
+                            which has not.
+                        </div>
+                    </div>
+                    <div class="people grid__people">
+                        <div class="people__photo"><img src="src/img/SEO.svg" alt="SEO"></div>
+                        <div class="people__name"><span class="bold">Jet Li</span><br>I need more money</div>
+                        <div class="people__about people__about_padding">Do not seek to change what has come before.
+                            Seek to create that
+                            which has not.
                         </div>
                     </div>
                 </div>
-                <div class="skills-bars">
-                    <p class="skills-bars__item design"><span class="bold">Design</span> / 88%</p>
-                    <p class="skills-bars__item development"><span class="bold ">Development</span> / 76%</p>
-                    <p class="skills-bars__item wordPress"><span class="bold">WordPress</span> / 81%</p>
-                    <p class="skills-bars__item drupal"><span class="bold ">Drupal</span> / 71%</p>
-                </div>
             </div>
         </div>
     </div>
-    <!-- qoute -->
-    <div class="background-qoute">
+    <!-- block services -->
+    <div class="wrapper-full white">
         <div class="wrapper">
-            <div class="qoute">
-                <h3 class="qoute__title">Simplicity is about subtracting the obvious
-                    and adding the meaningful</h3>
-                <span class="qoute__span">John Maeda</span>
-            </div>
-        </div>
-    </div>
-    <!-- team -->
-    <div class="wrapper">
-        <div class="team">
-            <div class="main-heading">
-                <h6 class="main-heading__title">Team</h6>
-                <p class="main-heading__text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
-                    amet nibh vulputate cursus a sit amet mauris.</p>
-            </div>
-            <div class="members">
-                <div class="members-item">
-                    <div class="members-item__img"></div>
-                    <div class="members-item__name">john Doe<br>
-                        <span class="members-item__title-job">Founder</span></div>
-                    <div class="members-item__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
-                        a ornare odio.</div>
-                    <div class="members-item__wrap-icon">
-                        <a href="#" class="members-item__icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-dribbble"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+            <div class="services">
+                <div class="title title-services">TAKE A LOOK AT <span class="bold" id="services">OUR SERVICES</span>
+                    <div class="title-services__subtitle">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                        Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
                 </div>
-                <div class="members-item">
-                    <div class="members-item__img"></div>
-                    <div class="members-item__name">Jesmine Doe<br>
-                        <span class="members-item__title-job">Designer</span></div>
-                    <div class="members-item__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                        auctor
-                        a ornare odio.</div>
-                    <div class="members-item__wrap-icon">
-                        <a href="#" class="members-item__icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-dribbble"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-linkedin-in"></i></a>
+                <div class="grid">
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/tv.svg" alt="tv"></div>
+                        <div class="works__name">WEB DESIGN</div>
+                        <div class="works__about">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
                     </div>
-                </div>
-                <div class="members-item">
-                    <div class="members-item__img"></div>
-                    <div class="members-item__name">Martin Doe<br>
-                        <span class="members-item__title-job">Developer</span></div>
-                    <div class="members-item__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                        auctor
-                        a ornare odio.</div>
-                    <div class="members-item__wrap-icon">
-                        <a href="#" class="members-item__icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-dribbble"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/camera.svg" alt="camera"></div>
+                        <div class="works__name">PHOTOGRAPHY</div>
+                        <div class="works__about">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
                     </div>
-                </div>
-                <div class="members-item">
-                    <div class="members-item__img"></div>
-                    <div class="members-item__name">Anthony Doe<br>
-                        <span class="members-item__title-job">Photographer</span></div>
-                    <div class="members-item__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                        auctor
-                        a ornare odio.</div>
-                    <div class="members-item__wrap-icon">
-                        <a href="#" class="members-item__icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-dribbble"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="members-item__icon"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/phone.svg" alt="phone"></div>
+                        <div class="works__name">MOBILE APPS</div>
+                        <div class="works__about">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
+                    </div>
+                    <div class="works grid__work">
+                        <div class="works__img"><img src="src/img/speaker.svg" alt="speaker"></div>
+                        <div class="works__name">MARKETING</div>
+                        <div class="works__about works__about_padding">The first line of Lorem Ipsum, "Lorem ipsum
+                            dolor sit amet..", comes
+                            from a line in section 1.10.32.</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- facts -->
-    <div class="background-facts">
-        <div class="wrapper">
-            <div class="facts">
-                <div class="facts-item">
-                    <div class="facts-item__circle"><i class="fas fa-mug-hot"></i></div>
-                    <p class="facts-item__text"><span class="big-fz">6K+</span><br>Coffees</p>
-                </div>
-                <div class="facts-item">
-                    <div class="facts-item__circle"><i class="fas fa-hdd"></i></div>
-                    <p class="facts-item__text"><span class="big-fz">743</span><br>Projects</p>
-                </div>
-                <div class="facts-item">
-                    <div class="facts-item__circle"><i class="fas fa-user"></i></div>
-                    <p class="facts-item__text"><span class="big-fz">435</span><br>Clients</p>
-                </div>
-                <div class="facts-item">
-                    <div class="facts-item__circle"><i class="fas fa-thumbs-up"></i></div>
-                    <p class="facts-item__text"><span class="big-fz">225</span><br>Awards</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- service -->
-    <div class="wrapper">
-        <div class="service">
-            <div class="main-heading">
-                <h6 class="main-heading__title">Service</h6>
-                <p class="main-heading__text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
-                    amet</p>
-            </div>
-            <div class="servise__wrap-item">
-                <div class="servise-item">
-                    <div class="servise-item__icon"><i class="fas fa-pencil-alt"></i></div>
-                    <p class="servise-item__title">Designing</p>
-                    <p class="servise-item__text">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                        vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
-                        conubia nostra, per</p>
-                </div>
-                <div class="servise-item">
-                    <div class="servise-item__icon"><i class="fas fa-code"></i></div>
-                    <p class="servise-item__title">Developing</p>
-                    <p class="servise-item__text">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                        vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
-                        conubia nostra, per</p>
-                </div>
-                <div class="servise-item">
-                    <div class="servise-item__icon"><i class="fas fa-award"></i></div>
-                    <p class="servise-item__title">Branding</p>
-                    <p class="servise-item__text">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                        vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
-                        conubia nostra, per</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- pricing -->
-    <hr>
-    <div class="wrapper">
-        <div class="pricing">
-            <div class="pricing__wrap-left">
-                <div class="pricing__icon"></div>
-                <div class="pricing__title">Packege Pricing</div>
-                <div class="pricing__text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                    bibendum auctor, nisi elit consequat ipsum, nec
-                    sagittis sem nibh id elit.</div>
-            </div>
-            <div class="prcing__wrap-right">
-                <div class="pricing-item">
-                    <div class="pricing-item__titile"><span class="border">BASIC</span><br>$35</div>
-                    <ul class="pricing-item__list">
-                        <li>First Description</li>
-                        <li>Second Description</li>
-                        <li>Third Description</li>
-                        <li>Fourth Description</li>
-                    </ul>
-                    <div class="pricing-item__footer">
-                        <input type="button" value="Purchase" class="button">
-                    </div>
-                </div>
-                <div class="pricing-item">
-                    <div class="pricing-item__titile"><span class="border">BASIC</span><br>$35</div>
-                    <ul class="pricing-item__list">
-                        <li>First Description</li>
-                        <li>Second Description</li>
-                        <li>Third Description</li>
-                        <li>Fourth Description</li>
-                    </ul>
-                    <div class="pricing-item__footer">
-                        <input type="button" value="Purchase" class="button">
-                    </div>
-                </div>
-                <div class="pricing-item">
-                    <div class="pricing-item__titile"><span class="border">BASIC </span><br>$35</div>
-                    <ul class="pricing-item__list">
-                        <li>First Description</li>
-                        <li>Second Description</li>
-                        <li>Third Description</li>
-                        <li>Fourth Description</li>
-                    </ul>
-                    <div class="pricing-item__footer">
-                        <input type="button" value="Purchase" class="button">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- testimonial -->
-    <div class="background-testimonial">
-        <div class="wrapper">
-            <div class="testimonial">
-                <h3 class="testimonial__title">Maria Jones</h3>
-                <p class="testimonial__text">“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum
-                    auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.”</p>
-                <div class="testimonial__icon"></div>
-            </div>
-        </div>
-    </div>
-    <!-- portfolio -->
-    <div class="wrapper">
-        <div class="portfolio">
-            <div class="main-heading">
-                <h6 class="main-heading__title">Portfolio</h6>
-                <p class="main-heading__text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
-                    amet nibh vulputate cursus a sit amet mauris.</p>
-            </div>
-            <div class="portfolio-slider">
-                <div class="portfolio-slider__wrap-img"></div>
-                <div class="portfolio-slider__wrp-buttons">
-                    <div class="portfolio-slider__button prev"></div>
-                    <div class="portfolio-slider__button next"></div>
-                    <div class="portfolio-slider__button closed"></div>
-                </div>
-                <p class="portfolio-name">
-                    <sapn class="bold">Digital ArtWork</sapn><br> Graphic Design
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- works -->
-    <hr>
-    <div class="wrapper">
-        <div class="works">
-            <div class="works-header">
-                <a href="#" class="works-header__item">All Work</a>
-                <a href="#" class="works-header__item">Graphics</a>
-                <a href="#" class="works-header__item">WebDesign</a>
-                <a href="#" class="works-header__item">Branding</a>
-                <a href="#" class="works-header__item">Video</a>
-                <a href="#" class="works-header__item">Photography</a>
-            </div>
-            <div class="works__wrapper-top">
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Graphics</div>
-                </div>
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Photography</div>
-                </div>
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Branding</div>
-                </div>
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Graphics</div>
-                </div>
-            </div>
-            <div class="works__wrapper-top">
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Graphics</div>
-                </div>
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Photography</div>
-                </div>
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Branding</div>
-                </div>
-                <div class="works-item">
-                    <div class="works-item__icon"></div>
-                    <div class="works-item__name"><span class="bold">PROJECT TITLE HERE </span><br>Graphics</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- tweet -->
-    <div class="background-tweet">
-        <div class="wrapper">
-            <div class="tweet">
-                <div class="tweet__icon"><i class="fab fa-twitter"></i></div>
-                <div class="tweet__text">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
-                    nec sagittis sem nibh id elit. Duis sed odio sit amet nibh <a href="#" class="orange">ow.ly/ttlwd</a></div>
-            </div>
-        </div>
-    </div>
-    <!-- post -->
 
-    <div class="wrapper">
-        <div class="main-heading">
-            <h6 class="main-heading__title">Blog</h6>
-            <p class="main-heading__text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
-                vulputate cursus a sit amet mauris.</p>
-        </div>
-        <div class="post">
-            <div class="post-item">
-                <div class="post-item__wrapper-top">
-                    <div class="post-item__icon"></div>
-                    <div class="post-item__title">Awesome Blog Post Title Goes Here</div>
-                </div>
-                <div class="post-item__wrapper-bottom">
-                    <div class="post-item__data">21 Feb ‘14<br>
-                        John Doe<br>
-                        24 Comments
-                    </div>
-                    <div class="psot-item__text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                        accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                        vitae erat consequat auctor eu in elit.</div>
-                </div>
-                <input type="button" value="Read On" class="post__button">
-            </div>
-            <div class="post-item">
-                <div class="post-item__wrapper-top">
-                    <div class="post-item__icon"></div>
-                    <div class="post-item__title">Awesome Blog Post Title Goes Here</div>
-                </div>
-                <div class="post-item__wrapper-bottom">
-                    <div class="post-item__data">21 Feb ‘14<br>
-                        John Doe<br>
-                        24 Comments
-                    </div>
-                    <div class="psot-item__text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                        accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                        vitae erat consequat auctor eu in elit.</div>
-                </div>
-                <input type="button" value="Read On" class="post__button">
-            </div>
-            <div class="post-item">
-                <div class="post-item__wrapper-top">
-                    <div class="post-item__icon"></div>
-                    <div class="post-item__title">Awesome Blog Post Title Goes Here</div>
-                </div>
-                <div class="post-item__wrapper-bottom">
-                    <div class="post-item__data">21 Feb ‘14<br>
-                        John Doe<br>
-                        24 Comments
-                    </div>
-                    <div class="psot-item__text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                        accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                        vitae erat consequat auctor eu in elit.</div>
-                </div>
-                <input type="button" value="Read On" class="post__button">
-            </div>
-            <div class="post-item">
-                <div class="post-item__wrapper-top">
-                    <div class="post-item__icon"></div>
-                    <div class="post-item__title">Awesome Blog Post Title Goes Here</div>
-                </div>
-                <div class="post-item__wrapper-bottom">
-                    <div class="post-item__data">21 Feb ‘14<br>
-                        John Doe<br>
-                        24 Comments
-                    </div>
-                    <div class="psot-item__text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                        accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                        vitae erat consequat auctor eu in elit.</div>
-                </div>
-                <input type="button" value="Read On" class="post__button">
-            </div>
         </div>
     </div>
     <!-- clients -->
-    <div class="background-clients">
+    <div class="wrapper-full black">
         <div class="wrapper">
             <div class="clients">
-                <div class="clients__title">OUR CLIENTS</div>
-                <div class="clients__wrap-list">
-                    <div class="clients__item"></div>
-                    <div class="clients__item"></div>
-                    <div class="clients__item"></div>
-                    <div class="clients__item"></div>
+                <div class="title title-clients">SOME OF <span class="bold">OUR CLIENTS</span></div>
+                <div class="company">
+                    <div class="company__item"><img src="src/img/01.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/02.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/03.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/04.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/05.png" alt="company"></div>
+                    <div class="company__item"><img src="src/img/06.png" alt="company"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portflio -->
+    <div class="wrapper white" id="portflio">
+        <div class="wrapper">
+            <div class="portfolio">
+                <div class="title title-portfolio">TAKE A LOOK AT <span class="bold">OUR WORK</span>
+                    <p class="title-portfolio__subtitle">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                        Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+                <div class="filter">
+                    <p class="filter__name bold">Filter by type</p>
+                    <div class="sorting">
+                        <a href="#" class="sorting__link">All</a><span class="sorting__link_stick">|</span>
+                        <a href="#" class="sorting__link">Web design</a><span class="sorting__link_stick">|</span>
+                        <a href="#" class="sorting__link">Mobile design</a><span class="sorting__link_stick">|</span>
+                        <a href="#" class="sorting__link">Photograpy</a>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs.png" alt="jobs"></div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs2.png" alt="jobs"></div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                    <div class="jobs grid__jobs">
+                        <div class="jobs__img"><img src="src/img/jobs3.png" alt="jobs"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- reviews -->
+    <div class="wrapper-full black" id="testimonials">
+        <div class="wrapper">
+            <div class="reviews">
+                <div class="title title-reviews"><span class="bold">OUR CLIENTS’</span> TESTIMONIALS
+                    <div class="title-reviews__subtitle">This book is a treatise on the theory of ethics, very popular
+                        during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+                        from a line in section 1.10.32.
+                        <div class="title-reviews__name"><span class="bold">Dean Martin</span>, CEO Acme Inc.</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+
+    <div class="wrapper-full white">
+        <div class="wrapper">
+            <div class="formWrap">
+                <div class="title title-form">FEEL FREE TO <span class="bold" id="footer">CONTACT US</span>
+                    <div class="title-form__subtitle">
+                        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                        Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory
+                        of ethics, very popular during the Renaissance.
+                    </div>
+                </div>
+
+                <form action="" class="form">
+                    <div class="input-block">
+                        <div class="input-wrap">
+                            <p class="input-text">Name <span class="red">*</span></p>
+                            <input type="text">
+                        </div>
+                        <div class="input-wrap">
+                            <p class="input-text">Email address <span class="red">*</span></p>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="textarea">
+                        <div class="textarea__text">Message <span class="red">*</span></div>
+                        <textarea></textarea>
+                    </div>
+                    <div class="button-wrap">
+                        <input type="submit" value="SEND">
+                    </div>
+
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <div class="wrapper-full black">
+        <div class="wrapper">
+            <div class="footer">
+                <p class="footer__text">ALL RIGHTS RESERVED. COPYRIGHT © 2014 <span class="bold">SPIRIT8</span></p>
+                <div class="icon-block">
+                    <a href="#"><img src="src/img/facebook.svg" alt="fb"></a>
+                    <a href="#"><img src="src/img/google.svg" alt="gogle"></a>
+                    <a href="#"><img src="src/img/dribbble.svg" alt="dribbble"></a>
+                    <a href="#"><img src="src/img/linkedin.svg" alt="link"></a>
+                    <a href="#"><img src="src/img/twitter.svg" alt="twitter"></a>
                 </div>
             </div>
         </div>
     </div>
 </body>
-
 
 </html>

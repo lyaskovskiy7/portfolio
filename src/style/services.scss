@@ -1,17 +1,22 @@
-.team {
-    color: #fff;
+.title {
+    text-align: center;
+    font-size: 44px;
 }
 
-.title-team {
+.title-services {
     padding-top: 100px;
     font-weight: 300;
 }
 
-.grid {
-    @include row-flex;
+.title-services__subtitle {
+    padding-top: 40px;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
 }
 
-.grid__people {
+
+.grid__work {
     @include col;
     @include size(3);
     @include size-md(6);
@@ -20,31 +25,32 @@
     text-align: center;
 }
 
-
-.people__photo {
+.works__img {
     margin: 0 auto;
     width: 130px;
     height: 130px;
-    box-sizing: border-box;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 3px solid #fcac45;
+    box-sizing: border-box;
     position: relative;
 
     img {
         position: absolute;
-        width: 95%;
-        top: -11px;
-        left: 4px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 }
 
-.people__name {
-    padding-top: 23px;
-    line-height: 24px;
+.works__name {
+    padding-top: 29px;
+    font-size: 25px;
 }
 
-.people__about {
-    padding-top: 25px;
+.works__about {
+    padding-top: 20px;
     font-size: 14px;
     padding-bottom: 100px;
 
